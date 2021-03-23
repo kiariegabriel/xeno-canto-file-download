@@ -1,5 +1,5 @@
 """Ensure urllib library is installed first in the 
-    environment you will run the program in."""
+    environment you will run the program in"""
 
 
 import os
