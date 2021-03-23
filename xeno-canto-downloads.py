@@ -53,4 +53,6 @@ def file_download(bird,country,path):
         myfile=requests.get(url)
         open(path+'/'+i, 'wb').write(myfile.content)
 
-file_download('Hadada Ibis','Kenya','C:/users/Gabe/downloads/')
+bird = input('Enter the bird of interest: ')
+
+file_download(bird,'Kenya','C:/users/Gabe/downloads/')
